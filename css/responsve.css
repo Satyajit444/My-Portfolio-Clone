@@ -1,0 +1,122 @@
+@media (max-width:900px) {
+    body {
+        padding: 0px;
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: right;
+        position: absolute;
+        top: 0;
+        right: 0px;
+        background-color: #ffffff;
+        height: 100vh;
+        padding-right: 0.7rem;
+        width: 200px;
+        transition: all 0.3s;
+        display: none;
+        padding-top: 30%;
+    }
+    .listItem.listItems {
+        display: block;
+    }
+    nav ul li {
+        margin-top: 0.8rem;
+    }
+    nav ul li a:hover {
+        background-color: transparent;
+        color: #000;
+    }
+    nav .menu-toggle {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .small-user {
+        display: block;
+        position: absolute;
+        top: 6rem;
+        right: 2rem;
+    }
+    header {
+        background-color: #f6fbff;
+    }
+    .bottom-text {
+        position: fixed;
+        bottom: 3rem;
+        right: 1rem;
+        flex-direction: column;
+        text-align: right;
+        display: none;
+        z-index: 100;
+        background-color: transparent;
+    }
+    .bottom-text p {
+        margin-top: 20px;
+    }
+    .bottom-text.footer {
+        display: block;
+    }
+    .social-links {
+        margin-top: -3.3rem;
+    }
+    .bottom-text a {
+        margin: 0px;
+    }
+    ion-icon {
+        zoom: 1.2
+    }
+    .image-container {
+        display: none;
+    }
+    .main-content .container {
+        padding: 10% 1rem 3rem 1rem;
+    }
+    .inner-text,
+    .inner-details {
+        flex-basis: 100%;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width:600px) {
+    nav ul {
+        padding-top: 56%;
+    }
+    .main-content .container {
+        padding: 15% 1rem 3rem 1rem;
+    }
+    .box {
+        flex-basis: 100%;
+    }
+    .small-screen {
+        display: block;
+    }
+    .big-screen {
+        display: none;
+    }
+    .contact-form,
+    .map {
+        flex-basis: 100%;
+    }
+    .contact-info {
+        width: 100%;
+    }
+    .small-section-news h1 {
+        font-size: 1.2rem;
+    }
+    .small-section-news p {
+        font-size: 0.7rem;
+    }
+    .small-section-news span {
+        font-size: 3rem;
+        margin-left: 3rem;
+    }
+    .seral {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .news-list {
+        margin-left: 3rem;
+    }
+}
